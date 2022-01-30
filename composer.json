@@ -1,11 +1,14 @@
 {
     "name": "darryldecode/laravel-starter-kit",
     "description": "Laravel 5.6~ Starter Kit Powered by VueJS + Material Design",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.4.27",
         "fideloper/proxy": "~4.1",
         "firebase/php-jwt": "^5.0",
         "intervention/image": "^2.4",
@@ -37,8 +40,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-            ]
+            "dont-discover": []
         }
     },
     "scripts": {
@@ -58,7 +60,7 @@
         "sort-packages": true,
         "optimize-autoloader": true,
         "platform": {
-            "php": "7.3"
+            "php": "7.4.27"
         }
     }
 }
